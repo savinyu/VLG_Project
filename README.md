@@ -6,7 +6,22 @@ This project aims to perform AI generated image detection. It utilizes a dataset
 Used CNN for the model architecture. Also tried ResNet50 and VGG19 pretrained models but I got better f1-score on the self-trainned CNN model.
 
 The file "Code.ipynb" contains the code for the solution to the problem statement using CNN model.
-"my-output.csv" contains the output file.
+
+And "my-output.csv" contains the output file containing the predictions made by the model on test data.
+
 The GDrive link for the Dataset folder : https://drive.google.com/drive/folders/16yfqE9z5lucXq6lBGqxeRBJZRa2iBP2-?usp=drive_link
 
 The Dataset contains two files : 'test.csv' and 'train.csv'
+
+The following dependencies are required to run the code:
+
+- Python 3.x
+- pandas
+- numpy
+- scikit-learn
+- keras
+
+To install the necessary dependencies use the following command:
+
+!pip install pandas numpy scikit-learn keras
+
